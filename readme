@@ -1,0 +1,88 @@
+<div id="big-container"> </div>
+       
+          <div class="table1" id="table-css">  
+             <div  class="movie_form">
+                 <legend>
+               FaVoRiTe
+                </legend>
+              <form action="WebPages/AddMovie.jsp" method="POST">
+               <h2>ADD MOVIES</h2>
+               <label for="text">MOVIE NAME :</label> 
+              <input type="text" name="title" placeholder="Enter Movie Name" >
+       
+                 <br><br>
+              <label for="text">GENRE :</label> 
+                 <select name="genre" id="option_text">
+                       <option value="" id="movie-genre">select your type</option>
+                       <option value="ACTION">ACTION</option>
+                       <option value="DRAMA">DRAMA</option>
+                       <option value="ROMANTIC">ROMANTIC</option>
+                       <option value="SUSPENSE">SUSPENSE</option>
+                   </select>
+                     <br><br>
+           <label for="time">DURATION :</label> 
+              <select name="duration" id="option_text">
+                <option value="." id="movie-time">select your time</option>
+                <option value="129" >9.00am to 12.00am</option>
+                <option value="145" >12.00am to 3.00pm</option>
+                <option value="180" >3.00pm to 6.00pm</option>
+                <option value="120" >6.00pm to 9.00pm</option>
+                <option value="130" >9.00pm to 12.00pm</option>
+              </select>
+                  <br><br>
+          <label for="director">DIRECTORR:</label> 
+             <input type="text" name="directorname" placeholder="Enter Director Name" >
+                 <br><br>
+           <button class="sub_button">ADD MOVIE</button>
+            </form><br><br>
+             </div>
+           </div>   
+  
+     <div class="table2" id="table-css">  
+               <div class="movie_form">
+                     <legend>
+      FaVoRiTe
+      </legend>
+    <form action="SCHEDULE.jsp" >
+    <h2>Schedule Movie</h2>
+     <label for="number">MOVIE ID :</label> 
+      <input type="number" name="MId" placeholder="Enter MId">
+     <br><br>
+     <label for="number">SCREEN NO :</label> 
+      <input type="number" name="screen" placeholder="Enter Screen no">
+      <br><br> 
+      <label for="number">SLOT NO :</label> 
+      <input type="number" name="slot" placeholder="Enter slot No">
+      <br><br>
+      
+      <button class="sub_button">SCHEDULE</button>
+          
+</form>
+               </div>
+     </div><br><br>
+
+     <div class="table3" id="table-css">  
+         
+         <div class="movie_form">
+           <legend>
+      FaVoRiTe
+      </legend>
+    <form action="DELETE.jsp" >
+    <h2>DELETING MOVIE</h2>
+     <label for="text">MOVIE NAME:</label> 
+     <select name="title" id="option_text">
+                 <option value="." id="movie-Name">choose for delete</option>
+                <option value="12th_FAIL" id="movie-Name">12th_FAIL</option>
+                <option value="ANIMAL" id="movie-Name">ANIMAL</option>
+               <option value="AOLE_AALE" id="movie-Name">AOLE_AALE</option>
+               <option value="SALLAR" id="movie-Name">SALLAR</option>
+               <option value="SAM_BAHADUR" id="movie-Name">SAM_BAHADUR</option>
+      </select>
+       
+         <br><br>
+      <button class="sub_button">DELETE</button>
+        
+</form>
+         </div>
+         
+     </div> 
